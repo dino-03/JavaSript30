@@ -11,12 +11,12 @@ const playSound = function (e) {
     return;
   }
   key.classList.add("playing");
-}
+};
 const removeTransition = function (e) {
   // console.log("transform");
   if (e.propertyName !== "transform") return;
   else {
-    this.classList.remove("playing");  //this = key
+    this.classList.remove("playing"); //this = key
   }
 };
 
